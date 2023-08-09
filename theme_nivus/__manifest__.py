@@ -3,7 +3,7 @@
     'description': 'Nivus Theme',
     'category': 'Theme/Corporate',
     'summary': 'Technology, Software, Corporate, Business, Finance, Services',
-    'sequence': 190,
+    'sequence': 195,
     'version': '1.0.0',
     'author': 'Nivus S.A.S.',
     'depends': ['theme_common'],
@@ -23,8 +23,8 @@
         'views/snippets/s_image_gallery.xml',
     ],
     'images': [
-        'static/description/enark_description.jpg',
-        'static/description/enark_screenshot.jpg',
+        'static/description/nivus_description.jpg',
+        'static/description/nivus_screenshot.jpg',
     ],
     'images_preview_theme': {
         'website.s_banner_default_image': '/theme_nivus/static/src/img/snippets/s_banner.jpg',
@@ -41,7 +41,7 @@
         'homepage': ['s_banner', 's_picture', 's_numbers', 's_text_image', 's_images_wall', 's_call_to_action'],
     },
     'license': 'LGPL-3',
-    'live_test_url': 'https://theme-enark.odoo.com',
+    'live_test_url': '',
     'assets': {
         'website.assets_editor': [
             'theme_nivus/static/src/js/tour.js',

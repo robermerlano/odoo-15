@@ -14,7 +14,6 @@ $o-theme-bg-img-09: url("/theme_nivus/static/src/img/backgrounds/bg_img_09.jpg")
 $o-theme-bg-img-10: url("/theme_nivus/static/src/img/backgrounds/bg_img_10.jpg");
 $o-theme-bg-img-11: url("/theme_nivus/static/src/img/backgrounds/bg_img_11.jpg");
 $o-theme-bg-img-12: url("/theme_nivus/static/src/img/backgrounds/bg_img_12.jpg");
-
 $o-theme-bg-pattern-01: url("/theme_nivus/static/src/img/backgrounds/bg_pattern_01.jpg");
 $o-theme-bg-pattern-02: url("/theme_nivus/static/src/img/backgrounds/bg_pattern_02.jpg");
 $o-theme-bg-pattern-03: url("/theme_nivus/static/src/img/backgrounds/bg_pattern_03.jpg");
@@ -29,42 +28,42 @@ $o-theme-bg-pattern-06: url("/theme_nivus/static/src/img/backgrounds/bg_pattern_
 // Theme colors
 $o-theme-color-palettes: map-merge($o-theme-color-palettes,
     (
-        'enark-1': (
+        'nivus-1': (
             'alpha': #9ea5ab,
             'beta': #b5c0c9,
             'gamma': #778089,
             'delta': #566b7f,
             'epsilon': #28354d,
         ),
-        'enark-2': (
+        'nivus-2': (
             'alpha': #2b6990,
             'beta': #9ea5ab,
             'gamma': #1fb1b0,
             'delta': #324465,
             'epsilon': #28354d,
         ),
-        'enark-3': (
+        'nivus-3': (
             'alpha': #5a8eaf,
             'beta': #2b6990,
             'gamma': #566b7f,
             'delta': #324465,
             'epsilon': #28354d,
         ),
-        'enark-4': (
+        'nivus-4': (
             'alpha': #1fb1b0,
             'beta': #566b7f,
             'gamma': #1b7f7e,
             'delta': darken(#1b7f7e, 30%),
             'epsilon': darken(#1b7f7e, 50%),
         ),
-        'enark-5': (
+        'nivus-5': (
             'alpha': #5a8eaf,
             'beta': #2b6990,
             'gamma': #1fb1b0,
             'delta': #324465,
             'epsilon': #28354d,
         ),
-        'enark-6': (
+        'nivus-6': (
             'alpha': lighten(#000, 45%),
             'beta': lighten(#000, 80%),
             'gamma': lighten(#000, 70%),
@@ -138,7 +137,7 @@ $o-theme-font-configs: (
 
 $o-website-values-palettes: (
     (
-        'color-palettes-name': 'enark-1',
+        'color-palettes-name': 'nivus-1',
         'header-font-size':     1rem,
         'font':                 'Open Sans',
         'headings-font':        'Bitter',
@@ -150,14 +149,14 @@ $o-website-values-palettes: (
     ),
 );
 
-$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'enark-1');
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'nivus-1');
 
 $o-color-palettes-compatibility-indexes: (
-    1: 'enark-1',
-    2: 'enark-2',
-    3: 'enark-3',
-    4: 'enark-4',
-    5: 'enark-5',
+    1: 'nivus-1',
+    2: 'nivus-2',
+    3: 'nivus-3',
+    4: 'nivus-4',
+    5: 'nivus-5',
     6: 'generic-1',
     7: 'generic-2',
     8: 'generic-3',
@@ -178,10 +177,10 @@ $o-color-palettes-compatibility-indexes: (
 );
 
 $o-theme-color-palettes-compatibility-indexes: (
-    1: 'enark-1',
-    2: 'enark-2',
-    3: 'enark-3',
-    4: 'enark-4',
-    5: 'enark-5',
-    6: 'enark-6',
+    1: 'nivus-1',
+    2: 'nivus-2',
+    3: 'nivus-3',
+    4: 'nivus-4',
+    5: 'nivus-5',
+    6: 'nivus-6',
 );

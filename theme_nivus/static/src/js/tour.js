@@ -1,4 +1,4 @@
-odoo.define("theme_enark.tour.enark", function (require) {
+odoo.define("theme_nivus.tour.nivus", function (require) {
 "use strict";
 
 const core = require("web.core");
@@ -33,7 +33,7 @@ const snippets = [
     },
 ];
 
-wTourUtils.registerThemeHomepageTour("enark_tour", [
+wTourUtils.registerThemeHomepageTour("nivus_tour", [
     wTourUtils.dragNDrop(snippets[0]),
     wTourUtils.clickOnText(snippets[0], 'h1'),
     wTourUtils.goBackToBlocks(),
